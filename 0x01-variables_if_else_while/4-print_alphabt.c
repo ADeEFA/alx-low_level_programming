@@ -3,45 +3,40 @@
 #include <unistd.h>
 
 /**
- *
  *  * main - Entry point
  *
  *   * Description: prints lowercase alphabets
  *
  *    * Return: Always 0 (success)
- *
- *     */
+ */
 
 int main(void)
-
 {
 
-	    int ch;
+int ch;
 
+for
+(ch = 'a'; 
+ch <= 'z';
+ch++)
+{
 
+if 
+(ch != 'e' && ch != 'q')
+{
 
-	        for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
+}
 
-			    {
+else
+{
 
-				            if (ch != 'e' && ch != 'q')
+}
 
-						            {
+}
 
-								                putchar(ch);
+putchar('\n');
 
-										        }
-
-					            else
-
-							            {
-
-									            }
-
-						        }
-
-		    putchar('\n');
-
-		        return (0);
+return (0);
 
 }
