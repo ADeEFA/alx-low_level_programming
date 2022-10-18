@@ -3,41 +3,34 @@
 #include <unistd.h>
 
 /**
- *
  *  * main - Entry point
  *
  *   * Description: prints alphabet in lowercase then uppercase
  *
  *    * Return: Always 0 (success)
- *
- *     */
+ */
 
 int main(void)
-
 {
 
-	    int ch;
+int ch;
 
+for
+(ch = 'a'; ch <= 'z'; ch++)
+{
 
+putchar(ch);
 
-	        for (ch = 'a'; ch <= 'z'; ch++)
+}
 
-			    {
+for
+(ch = 'A'; ch <= 'Z'; ch++)
+{
+putchar(ch);
+}
 
-				            putchar(ch);
+putchar('\n');
 
-					        }
-
-		    for (ch = 'A'; ch <= 'Z'; ch++)
-
-			        {
-
-					        putchar(ch);
-
-						    }
-
-		        putchar('\n');
-
-			    return (0);
+return (0);
 
 }
