@@ -16,12 +16,12 @@ int main(void)
 int ch;
 
 for
-(ch = 'a'; 
+(ch = 'a';
 ch <= 'z';
 ch++)
 {
 
-if 
+if
 (ch != 'e' && ch != 'q')
 {
 
