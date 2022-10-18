@@ -3,33 +3,28 @@
 #include <stdio.h>
 
 /**
- *
  *  * main - Entry point
  *
  *   * Description: prints lowercase alphabets in reverse
  *
  *    * Return: Always 0 (success)
- *
- *     */
+ */
 
 int main(void)
-
 {
 
-	    int a;
+int a;
 
+for
+(a = 'z';
+a >= 'a';
+a--)
+{
+putchar(a);
+}
 
+putchar('\n');
 
-	        for (a = 'z'; a >= 'a'; a--)
-
-			    {
-
-				            putchar(a);
-
-					        }
-
-		    putchar('\n');
-
-		        return (0);
+return (0);
 
 }
