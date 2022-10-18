@@ -16,7 +16,7 @@ int main(void)
 int ch;
 
 for
-(ch = 'a'; 
+(ch = 'a';
 ch <= 'z';
 ch++)
 {
@@ -26,7 +26,7 @@ putchar(ch);
 }
 
 for
-(ch = 'A'; 
+(ch = 'A';
 ch <= 'Z';
 ch++)
 {
