@@ -11,7 +11,7 @@ int main(void)
 
 	for (c = 48; c <= 57; c++)
 	{
-		for (i = 48; i <=57; i++)
+		for (i = 48; i <= 57; i++)
 		{
 			for (k = 48; k <= 57; k++)
 			{
@@ -27,7 +27,7 @@ int main(void)
 
 				if (c + i + k + j == 227 && c == 57)
 					{ 
-					break;
+						break;
 					}
 					else
 					{
