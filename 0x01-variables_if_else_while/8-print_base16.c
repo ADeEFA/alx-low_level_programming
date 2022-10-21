@@ -1,32 +1,19 @@
-#include <unistd.h>
-
 #include <stdio.h>
 
 /**
- *  * main - Entry point
- *
- *   * Description: prints lowercase alphabets in reverse
- *
- *    * Return: Always 0 (success)
+ * main - prints out all the numbers of base 16 in lowercase
+  * Return: 0
  */
 
 int main(void)
 {
+int i;
 
-int a;
-
-for
-(a = 'z';
-a >= 'a';
-a--)
-{
-
-putchar(a);
-
-}
-
+for (i = 48; i < 58; i++)
+putchar(i);
+for (i = 'a'; i <= 'f'; i++)
+putchar(i);
 putchar('\n');
-
 return (0);
-
 }
+
